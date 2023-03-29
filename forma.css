@@ -1,0 +1,81 @@
+html, body { margin:0; padding:0; border:none; }
+
+#contenedor {
+width:80%;
+margin: auto;
+
+}
+
+#nombre{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: azure;
+}
+#Subtitulos{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#trabajos{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+#cabecera {
+    background: grey;
+    height: 200px;
+    text-align: center;
+    
+}
+#perfil{ 
+   border-radius: 70%;
+}
+
+#pie {
+clear: both;
+height: 80px;
+background: grey;
+justify-content: space-around;
+align-items: center;
+display: flex;
+}
+#primero {
+background:  #a4d4a4b7;
+}
+#segundo {
+background: #fdeb8b ;
+text-align: left;
+}
+#tercero {
+background: #fdeb8b;
+}
+#cuarto {
+background:  #a4d4a4b7;
+justify-content: space-around;
+display: flex;
+}
+#cabecera,#pie, #primero, #segundo, #tercero, #cuarto {
+padding: 1.25em 2%;
+margin: 0.4em 0;
+}
+#cabecera{ margin-bottom: 0; }
+#contenido { padding: 0; }
+
+#primero {
+    float: right;
+    width: 65%;
+    margin-left: 1%;
+    display: block;
+    height: 250px;
+    }
+    #segundo {
+    float: left;
+    width: 26%;
+    display: block;
+    height: 250px;
+    }
+    #tercero {
+    clear: both;
+    width: 96%;
+    }
+    #Cuarto {
+        clear: both;
+        width: 96%;
+        height: 600px;
+        }
